@@ -20,7 +20,7 @@ function App() {
 	}
 
 	return (
-		<div className="App">
+		<div className="app">
 		  <form className="addTodo">
 			  	<input value={ todoItemTitle } onChange={ (e) => setTodoItemTitle(e.target.value) } id="todoTitle" type="text" />
 			  	<button onClick= { addTodoItem }>Add</button>
