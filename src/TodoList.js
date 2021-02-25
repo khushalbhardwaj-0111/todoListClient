@@ -7,7 +7,7 @@ function TodoList({ list }) {
 		{
 			list.map(todoItem => {
 				return (
-					<h2>{ todoItem }</h2>
+					<h2>{todoItem}</h2>
 				)
 			})
 		}
